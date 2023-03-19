@@ -5,3 +5,8 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+
+input[type=file]{
+  width:90px;
+  color:transparent;
+}
