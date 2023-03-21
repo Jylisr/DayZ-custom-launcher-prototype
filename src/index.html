@@ -8,11 +8,12 @@
   <body>
     <h1>DayZ launcher prototype</h1>
     <p>This could have recent updates or news etc.</p>
-    <input type="button" id="btnEd" value="Play" onclick="Play()" />
-    
+    <input type="button" id="btnEd" value="Play" onclick='playStart(); return false'/>
+    <p>Please enter the path to your DayZ_x64.exe file</p>
     <input id='selectedfile' type='text' name='selectedfile'>
     <input id='inputfile' type='file' name='inputfile' onChange='showSelectedFile()'>
     <br><br>
     <pre id="output"></pre>
+    <p>Tähä voi laittaa jotai</p>
   </body>
 </html>
